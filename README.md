@@ -5,5 +5,6 @@ portfolio/
 ├── js/
 │   └── main.js
 └── images/
-    ├── profile.jpeg
+    ├── profile.png (recommend a cut-out or .jpeg if needed)
     ├── venn-diagram.png
+    └── (others as desired)
