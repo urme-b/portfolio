@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+<head>
+  <!-- ========== META & TITLE ========== -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Machine Learning Engineer" />
+  <title>Machine Learning Engineer</title>
+
+  <!-- ========== SOCIAL / OPEN GRAPH ========== -->
+  <meta property="og:title" content="Machine Learning Engineer" />
+  <meta property="og:description" content="Bridging AI research with real-world impact and shaping future machine intelligence." />
+  <meta property="og:image" content="images/hero.jpg" />
+  <meta property="og:url" content="https://urme-b.github.io/portfolio/" />
+
+  <!-- ========== GOOGLE FONTS & ICONS ========== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- ========== FAVICON (Optional) ========== -->
+  <link rel="icon" href="images/favicon.ico" />
+
+  <!-- ========== MAIN CSS ========== -->
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+  <!-- ========== SKIP LINK ========== -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ========== HEADER / NAVBAR ========== -->
+  <header>
+    <nav class="navbar" role="navigation" aria-label="Main Navigation">
+      <a href="#top" class="logo" aria-label="Site Logo: Portfolio">Portfolio</a>
+      <div class="nav-icons">
+        <!-- Mobile Nav Toggle -->
+        <button class="menu-toggle" aria-label="Toggle Navigation Menu">
+          <i class="fas fa-bars" aria-hidden="true"></i>
+        </button>
+        <!-- Dark Mode Toggle -->
+        <button
+          class="dark-mode-toggle"
+          aria-label="Toggle Dark Mode"
+          aria-pressed="false"
+        >
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </button>
+      </div>
+      <ul>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#research-summary">Research</a></li>
+        <li><a href="#research-interests">Interests</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-left">
+        <!-- Example alt text includes a brief descriptive context for accessibility -->
+        <img
+          src="images/profile.jpeg"
+          alt="Photo of Urme Bose, Machine Learning Engineer"
+          class="profile-image"
+          loading="lazy"
+        />
+      </div>
+      <div class="hero-right">
+        <h1 class="hero-title">URME BOSE</h1>
+        <h2 class="hero-subtitle">Machine Learning Engineer</h2>
+        <p class="hero-tagline">
+          Bridging AI research with real-world impact and shaping future machine intelligence.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="cta-btn secondary-btn">Explore Projects</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="main-content" role="main">
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section">
+      <h2 class="section-title">Skills</h2>
+      <div class="container skills-grid">
+        <div class="card-hover skill-card">
+          <h3>Languages</h3>
+          <p>Python, SQL, R, Rust, JavaScript, HTML/CSS</p>
+        </div>
+        <div class="card-hover skill-card">
+          <h3>ML Libraries</h3>
+          <p>NumPy, Pandas, Scikit-Learn, Keras, TensorFlow, PyTorch, Hugging Face, SciPy, NLTK</p>
+        </div>
+        <div class="card-hover skill-card">
+          <h3>Visualization</h3>
+          <p>Tableau, Power BI, Matplotlib, Seaborn</p>
+        </div>
+        <div class="card-hover skill-card">
+          <h3>Misc</h3>
+          <p>Git, AWS, LaTeX, VS Code, Jupyter Notebook</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DATA SCIENCE PROCESS SECTION -->
+    <section id="process" class="section">
+      <h2 class="section-title">Process</h2>
+      <div class="container process-grid">
+        <div class="card-hover process-card">
+          <div class="process-icon"><i class="fas fa-broom"></i></div>
+          <h3>Data Cleaning</h3>
+          <p>Ensuring high-quality, reliable data by fixing missing values and inconsistencies.</p>
+        </div>
+        <div class="card-hover process-card">
+          <div class="process-icon"><i class="fas fa-chart-line"></i></div>
+          <h3>Data Analysis</h3>
+          <p>Extracting insights, discovering patterns, and forming hypotheses from raw data.</p>
+        </div>
+        <div class="card-hover process-card">
+          <div class="process-icon"><i class="fas fa-chart-pie"></i></div>
+          <h3>Visualization</h3>
+          <p>Creating interactive charts and dashboards to communicate findings effectively.</p>
+        </div>
+        <div class="card-hover process-card">
+          <div class="process-icon"><i class="fas fa-calculator"></i></div>
+          <h3>Statistical Analysis</h3>
+          <p>Applying tests (t-tests, ANOVA) and data modeling to validate assumptions.</p>
+        </div>
+        <div class="card-hover process-card">
+          <div class="process-icon"><i class="fas fa-robot"></i></div>
+          <h3>Predictive Modeling</h3>
+          <p>Developing ML solutions for classification, regression, or time-series forecasting.</p>
+        </div>
+        <div class="card-hover process-card">
+          <div class="process-icon"><i class="fas fa-chart-bar"></i></div>
+          <h3>ML Model Evaluation</h3>
+          <p>Ensuring accuracy, fairness, and interpretability with metrics and tools (SHAP, LIME).</p>
+        </div>
+        <div class="card-hover process-card">
+          <div class="process-icon"><i class="fas fa-server"></i></div>
+          <h3>MLOps &amp; Deployment</h3>
+          <p>Automating workflows, containerizing models (Docker, Kubernetes), and deploying effectively.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section project-adjust">
+      <h2 class="section-title">Projects</h2>
+
+      <!-- Filter Buttons -->
+      <div class="container project-filter">
+        <button data-filter="all" class="active">All</button>
+        <button data-filter="nlp">NLP</button>
+        <button data-filter="generative">Generative AI</button>
+        <button data-filter="edge">Edge AI</button>
+        <button data-filter="frontend">Front-End</button>
+      </div>
+
+      <div class="container projects-grid" id="projectsGrid">
+        <!-- 1: NexusRAG (NLP) -->
+        <div class="card-hover project-card" data-category="nlp">
+          <h3>NexusRAG: A Fully Local AI Knowledge Engine</h3>
+          <p>
+            <strong>Key Skills:</strong> Python, Docker, Streamlit, OpenSearch, 
+            Tesseract, Sentence Transformers, NLP, Local LLM Integration
+          </p>
+          <p class="impact">
+            <strong>Impact:</strong> Revolutionized enterprise-level knowledge retrieval 
+            with a <em>fully offline</em> AI solution—providing high-speed insights 
+            and <strong>complete data ownership</strong>.
+          </p>
+          <a
+            href="https://github.com/urme-b/NexusRAG"
+            target="_blank"
+            class="project-link"
+          >
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+
+        <!-- 2: NovaVision (Generative) -->
+        <div class="card-hover project-card" data-category="generative">
+          <h3>NovaVision: AI Chat + Text-to-Image Platform</h3>
+          <p>
+            <strong>Key Skills:</strong> Python, Hugging Face Transformers, Diffusers,
+            Gradio, Prompt Engineering, Docker, GPU Acceleration
+          </p>
+          <p class="impact">
+            <strong>Impact:</strong> Reimagined digital interaction by unifying
+            advanced conversational AI with on-demand image generation—creating
+            a seamless user experience.
+          </p>
+          <a
+            href="https://github.com/urme-b/NovaVision"
+            target="_blank"
+            class="project-link"
+          >
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+
+        <!-- 3: CalmSense (Edge) -->
+        <div class="card-hover project-card" data-category="edge">
+          <h3>CalmSense: An On-Device Stress Detection System</h3>
+          <p>
+            <strong>Key Skills:</strong> Python, Wearable Sensors, TinyML (TensorFlow&nbsp;Lite), 
+            Time-Series Feature Engineering, Real-Time Inference
+          </p>
+          <p class="impact">
+            <strong>Impact:</strong> Achieved <em>96.44% accuracy</em> in real-time stress vs.
+            calm detection—empowering users with immediate feedback and 
+            <strong>complete data ownership</strong>.
+          </p>
+          <a
+            href="https://github.com/urme-b/CalmSense"
+            target="_blank"
+            class="project-link"
+          >
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+
+        <!-- 4: Psychometric Test Suite (Front-End) -->
+        <div class="card-hover project-card" data-category="frontend">
+          <h3>Psychometric Test Suite</h3>
+          <p>
+            <strong>Key Skills:</strong> JavaScript, jQuery, Django, HTML/CSS, CVS/PDF Generation, Local Storage
+          </p>
+          <p class="impact">
+            <strong>Impact:</strong> Enabled <em>immediate, offline</em>
+            psychological assessments in privacy-sensitive contexts,
+            ensuring <em>data integrity</em> and user anonymity.
+          </p>
+          <a
+            href="https://github.com/urme-b/Psychometric"
+            target="_blank"
+            class="project-link"
+          >
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH SUMMARY -->
+    <section id="research-summary" class="section">
+      <h2 class="section-title">Research</h2>
+      <div class="container research-summary">
+        <div class="research-text card-hover">
+          <h3>Data-Driven Insights on Brain, Mind, and Behavior</h3>
+          <p>
+            My research merges <strong>Predictive Modeling &amp; Data Insights</strong> with 
+            <strong>Sensory Data &amp; Analysis</strong>, focusing on 
+            <strong>Brain, Mind, &amp; Behavioral Neuroscience</strong>. Leveraging signals
+            from <strong>eye-tracking, HRV, GSR, EEG</strong>, I explore
+            cognitive load, emotional states, and micro-behaviors in real time.
+          </p>
+          <p>
+            Ultimately, I aim for <strong>learning-enabled, physics-informed</strong> architectures 
+            that uphold human values while harnessing <strong>AGI</strong>
+            and advanced embedded system design to reshape computational neuropsychology. 
+            This approach enables early mental health detection, user-adaptive experiences, 
+            and a deeper understanding of human cognition in modern technology contexts.
+          </p>
+        </div>
+        <div class="research-img card-hover">
+          <img
+            src="images/venn-diagram.png"
+            alt="Methodology Venn Diagram for Data-Driven, Human-Centered AI"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH INTERESTS -->
+    <section id="research-interests" class="section">
+      <h2 class="section-title">Interests</h2>
+      <div class="container research-interests">
+        <div class="interest-list card-hover">
+          <h3>Research Interests</h3>
+          <ul>
+            <li>Human-Centered Artificial Intelligence (HAI)</li>
+            <li>Natural Language Processing (NLP)</li>
+            <li>Computational Neuropsychology</li>
+            <li>Computational Cognition</li>
+            <li>Behavioral Neuroscience</li>
+            <li>Artificial Intelligence</li>
+          </ul>
+        </div>
+        <div class="multimodal-fusion card-hover">
+          <h3>Multimodal Fusion</h3>
+          <div class="fusion-item">
+            <strong>Embedded AI &amp; ML</strong>
+            <p>Enable on-device analytics for real-time interactions.</p>
+          </div>
+          <div class="fusion-item">
+            <strong>Sensor Technologies</strong>
+            <p>Decode biosignals for real-time behavioral insights.</p>
+          </div>
+          <div class="fusion-item">
+            <strong>Computational Neuroscience</strong>
+            <p>Unravels brain computations shaping cognition.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOBBIES -->
+    <section id="hobbies" class="section">
+      <h2 class="section-title">Hobbies</h2>
+      <div class="container hobbies-grid">
+        <div class="card-hover hobby-card">
+          <div class="hobby-icon"><i class="fas fa-chess-knight"></i></div>
+          <h3>Chess</h3>
+          <p>A missing queen is not the end— my resilience can lead to real checkmate.</p>
+          <p><strong>Favorites:</strong></p>
+          <ul class="favorites-list">
+            <li>The Sicilian Defense</li>
+            <li>The Queen's Gambit</li>
+            <li>The Opera Game Mate</li>
+          </ul>
+        </div>
+        <div class="card-hover hobby-card">
+          <div class="hobby-icon"><i class="fas fa-book"></i></div>
+          <h3>Reading</h3>
+          <p>Philosophy, sci-fi, and literary novels fuel my curiosity.</p>
+          <p><strong>Favorites:</strong></p>
+          <ul class="favorites-list">
+            <li>Meditations (Aurelius)</li>
+            <li>Nexus (Harari)</li>
+            <li>The Singularity Is Nearer (Kurzweil)</li>
+          </ul>
+        </div>
+        <div class="card-hover hobby-card">
+          <div class="hobby-icon"><i class="fas fa-globe"></i></div>
+          <h3>Traveling</h3>
+          <p>Exploring cultures—from local street food to historic landmarks.</p>
+          <p><strong>Favorites:</strong></p>
+          <ul class="favorites-list">
+            <li>Paris</li>
+            <li>Barcelona</li>
+            <li>London</li>
+          </ul>
+        </div>
+        <div class="card-hover hobby-card">
+          <div class="hobby-icon"><i class="fas fa-hiking"></i></div>
+          <h3>Hiking</h3>
+          <p>Rugged trails clear my mind and spark fresh insights.</p>
+          <p><strong>Favorites:</strong></p>
+          <ul class="favorites-list">
+            <li>Lac Blanc, France</li>
+            <li>Montserrat, Spain</li>
+            <li>Sintra, Portugal</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <h2 class="section-title">Contact</h2>
+      <div class="container contact-flex">
+        <!-- Contact Info Card -->
+        <div class="card-hover contact-card">
+          <h3>Reach Out</h3>
+          <p><i class="fas fa-envelope"></i> <a href="mailto:urmebose05@gmail.com">urmebose05@gmail.com</a></p>
+          <p><i class="fas fa-phone"></i> +33 744 255 227</p>
+          <p><i class="fas fa-map-marker-alt"></i> Paris, France</p>
+          <p>Let’s collaborate to shape the future with data-driven innovations!</p>
+        </div>
+
+        <!-- Contact Form (Formspree) -->
+        <div class="card-hover contact-card">
+          <h3>Send a Message</h3>
+          <form
+            id="contactForm"
+            action="https://formspree.io/f/mvgzryee"
+            method="POST"
+            onsubmit="return handleFormSubmit(event)"
+            aria-label="Contact Form"
+          >
+            <input type="hidden" name="_subject" value="New Submission from Urme Bose - ML Engineer Portfolio!" />
+            <label for="name" class="sr-only">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Your Name"
+              required
+            />
+            <label for="email" class="sr-only">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email"
+              required
+            />
+            <label for="message" class="sr-only">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              rows="5"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+          <p style="margin-top: 1rem; font-size: 0.85rem;">
+            <em>Your message will be securely forwarded via Formspree.</em>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; <span id="year"></span> Urme. All rights reserved.</p>
+  </footer>
+
+  <!-- SCROLL TO TOP -->
+  <button id="scrollToTopBtn" aria-label="Scroll to Top">
+    <i class="fas fa-chevron-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- ========== External Libraries ========== -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- ========== MAIN JS ========== -->
+  <script src="js/main.js"></script>
+</body>
+</html>
